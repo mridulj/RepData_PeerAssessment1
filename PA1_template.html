@@ -235,7 +235,7 @@ print(paste0(&quot;The 5-minute interval, on average across all the days in the 
 
 <h2>Imputing missing values</h2>
 
-<p>Our strategy for filling in all of the missing values in the dataset, will be the mean for that 5-minute interval.</p>
+<p>Our strategy for filling in all of the missing values in the dataset, will be the mean for that 5-minute interval across all days as computed by avg_daily_activity above</p>
 
 <pre><code class="r">print(paste0(&quot;Total number of missing values in the dataset (i.e. the total number of rows with NAs): &quot;, sum(is.na(dat$steps))))
 </code></pre>
